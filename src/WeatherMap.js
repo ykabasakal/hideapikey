@@ -1,4 +1,4 @@
-// src/App.js
+// src/WeatherMap.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -8,7 +8,7 @@ const WeatherMap = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.post('weather.php', { lat: 30.7044, lon: 36.8840 });
+                const response = await axios.post('weather.php');
                 setWeatherData(response.data);
             } catch (error) {
                 console.error('Error:', error);
