@@ -2,7 +2,7 @@
 // public/weather.php
 
 // Your Meteoblue API key
-$meteoblueApiKey = 'TEST';
+$meteoblueApiKey = 'TEST1';
 
 // Construct the URL for the Meteoblue API request
 $apiUrl = "https://my.meteoblue.com/packages/basic-1h_basic-day?apikey=$meteoblueApiKey&lat=40.1555&lon=26.4127&asl=12&format=json";
